@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lamF | sort -n
+ls -lamF --file-type | sort -n
