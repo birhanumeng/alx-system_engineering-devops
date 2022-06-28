@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "Berhanu@ALX" "Oreuna@NYK"
+tr "Oreunah@NYK" "Berhanu@ALX"
