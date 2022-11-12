@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# cript that displays the PID, along with the process name which has bash in it.
+# cript that displays the PID, along with the process name.
 
 top -pc | grep bash
