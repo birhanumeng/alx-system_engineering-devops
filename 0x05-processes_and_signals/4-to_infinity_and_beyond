@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Script that displays To infinity and beyond
-# indefinitely
+# Script that displays To infinity and beyond indefinitely
 
 while true
 do
