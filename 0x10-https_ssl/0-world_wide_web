@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Configure the domain zone
 
-get_parameters()
+get_info()
 {
     record=$(dig $i.$1 | awk '/ANSWER SECTION:/ {getline; print $4}')
     ip=$(dig $i.$1 | awk '/ANSWER SECTION:/ {getline; print $5}')
@@ -9,11 +9,11 @@ get_parameters()
 
 if [ -z $2 ]; then
     for i in "www" "lb-01" "web-01" "web-02"; do
-    get_parameters $1
+    get_info $1
     echo "The subdomain $i is a $record record and points to $ip"
     done
 else
     i=$2
-    get_parameters $1
+    get_info $1
     echo "The subdomain $i is a $record record and points to $ip"
 fi
