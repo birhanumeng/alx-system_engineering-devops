@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # configure firewall that deney all incomming except SSH, HTTPS and HTTp
 
 sudo apt-get -y update
