@@ -8,7 +8,7 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
     users = requests.get(url + "users").json()
 
-    with open("all_tasks.json", "w") as jsonfile:
+    with open("todo_all_employees.json", "w") as jsonfile:
         json.dump({
             user.get("id"): [{
                 "task": t.get("title"),
