@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """returns information about employee's TODO list progress"""
-from urllib import requests
+import requests
 from sys import argv
 
 if __name__ == "__main__":
