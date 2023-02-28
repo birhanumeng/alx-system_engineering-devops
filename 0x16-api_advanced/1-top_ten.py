@@ -8,7 +8,6 @@ import requests
 
 def top_ten(subreddit):
     """Prints the titles of the first 10 hot posts."""
-
     r = requests.get("https://reddit.com/r/{}.json?sort=hot&limit=10".
                      format(subreddit), headers={"User-Agent": "custom"})
 
