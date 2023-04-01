@@ -30,5 +30,3 @@ After issue is resolved, We start all the default and customized configurations 
 * We configure resources for different users on system level.
 * we increases specifically number maximum processes and open file size for gas user on.
 * We do a documenting the incident for feature use with the same issue.
-The following diagram show the work flow
-![image](https://app.diagrams.net/#G1DtYepid_-QQaiQYaJ64I9048F4ZygJnS)
